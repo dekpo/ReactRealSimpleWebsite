@@ -1,9 +1,11 @@
+import Header from './Header';
+import Footer from './Footer';
+
 const App = () => {
   return (
     <div>
-      <header>
-        <h1>Header</h1>
-      </header>
+      <Header />
+      <Footer />
     </div>
   );
 }
