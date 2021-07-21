@@ -8,7 +8,7 @@ import PageContact from './pages/PageContact';
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <BrowserRouter>
       <Header />
       <Switch>
